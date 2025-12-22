@@ -14,14 +14,14 @@ Repositório para entregar aula
 |=VF(C9;C8*12;C7*-1 | VF (Valor Futuro) C9 (Juros) C18 (Anos × 12)  C7 (Valor Mensal)  -1 (Para Inverter sinal negativo)|
 |=PROCV(G3;$A:$D;4;FALSO) | PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4; FALSO = CORRESPONDENCIA EXATA|
 
-Calculando valor futuro (Patrimonio acumulado)
+##Calculando valor futuro (Patrimonio acumulado)
 
 ![Investimento mensal](assets/images/1.png)
 ```
 =VF(C9;C8*12;C7*-1)
 ```
 
-Calculando dividendos mensais 
+##Calculando dividendos mensais 
 
 DIVIDENDOS
 PATRIMONIO ACUMULADO
@@ -32,8 +32,9 @@ PATRIMONIO ACUMULADO
 ## Dica para utilizar numeros "invisíveis" no Excel 
   *COLOQUE OS NUMEROS NA COLUNA AO LADO 
 ![Cenários](assets/images/3.png)
-  *PINTE OS DE BRANCO PARA USAR O VALOR NA FORMULA
-  *APERTE F4 DUAS VEZES PARA FICAR A$20 = ISSO FAZ QUE SEJA POSSIVEL COPIAR A FORMULA ARRASTANDO PARA BAIXO DEM ALTERAR OS NUMEROS DAS COLUNAS QUE VOCE VAI DEIXAR INIVISEVEL
+
+PINTE OS DE BRANCO PARA USAR O VALOR NA FORMULA
+APERTE F4 DUAS VEZES PARA FICAR A$20 = ISSO FAZ QUE SEJA POSSIVEL COPIAR A FORMULA ARRASTANDO PARA BAIXO DEM ALTERAR OS NUMEROS DAS COLUNAS QUE VOCE VAI DEIXAR INIVISEVEL
 {{:pasted:20251216-163604.png}}
 
   *Meus cenarios
