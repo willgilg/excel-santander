@@ -8,18 +8,13 @@ Repositório para entregar aula
 
 - [Documentação Git]
 
-## Resumo das aulas
-
+### Formulas do Excel utilizadas na aula
 | Formulas  | Explicação |
 |-------|---------|
-|=VF(C9;C8*12;C7*-1 | VF (Valor Futuro) | C15 (Juros) | C14 (Anos × 12) | C13 (Valor Mensal) | -1 (Inverter sinal negativo)|
+|=VF(C9;C8*12;C7*-1 | VF (Valor Futuro) C15 (Juros) C14 (Anos × 12)  C13 (Valor Mensal)  -1 (Para Inverter sinal negativo)|
 |=PROCV(G3;$A:$D;4;FALSO) | PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4; FALSO = CORRESPONDENCIA EXATA|
 
-  *VF = VALOR FUTURO
-  *C15 = JURUS
-  *C14 = ANOS X 12 = 5X 12 PRA DAR 5 ANOS
-  *C13 = VALOR POR MES
-  *-1 = PARA NÃO DAR NEGATIVO, POIS POR PADRÃO O EXECEL CONSIDERA O VF COMO SAIDAS
+retreetetr
 ![Investimento mensal](assets/images/1.png)
 ```
 =VF(C9;C8*12;C7*-1)
