@@ -57,7 +57,7 @@ APERTE F4 DUAS VEZES PARA FICAR A$20 = ISSO FAZ QUE SEJA POSSIVEL COPIAR A FORMU
 
 ## Menu de configurações
 
-![Investimento mensal](assets/images/6.png)
+![Investimento mensal](assets/images/99.png)
 
 
 
