@@ -15,6 +15,7 @@ Repositório para entregar aula
 |=PROCV(G3;$A:$D;4;FALSO) | PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4; FALSO = CORRESPONDENCIA EXATA|
 
 retreetetr \\
+
 ![Investimento mensal](assets/images/1.png)
 ```
 =VF(C9;C8*12;C7*-1)
