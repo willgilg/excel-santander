@@ -61,16 +61,16 @@ APERTE F4 DUAS VEZES PARA FICAR A$20 = ISSO FAZ QUE SEJA POSSIVEL COPIAR A FORMU
 
 
 
-## PERFIS DE INVESTIMENTO 
-
 
 ### PERFIS DE INVESTIMENTO DINAMICO
-  *1 - Criar campo de texto validado com 
+  *1 - Criar campo de texto validado na segunda Coluna com:
 ```
 Conservador;Moderado;Agressivo;
 ```
+![Investimento mensal](assets/images/perfis-de-invest.png)
 
-![Investimento mensal](assets/images/9.png)
+
+  *Aperte a tecla F3 para ABRIR OS NOMES DAS VARIAVEI
   *2 - Criar um tabela de apoio para pegar os com os valores PERCENTUAIS e os tipos de FII's
    
   *3 - O valor da coluna A é o concatenação dos valores da coluna B e C "=B3&"-"&C3" para que fique o texto seja "**TIPO-DE-FI-PERCENTUAL SUGERIDO**"
