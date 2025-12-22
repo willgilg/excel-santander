@@ -89,12 +89,16 @@ PROCV =
 PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4; FALSO = CORRESPONDENCIA EXATA
 
 
+
+## Formula da concatanação + PROCV na segunda "Planilha2"
+  Criar segunda planilha para armazenar variaveis
+![Investimento mensal](assets/images/12.png)
+
+
+## Cirar formula PROCV na "planilha1" 
   *5 - Criar procv junto a formula de concatenação na columa Percentual Suegerido,
   *Ficando:
 
 ```
 =PROCV($C$25&"-"&B29;Planilha2!$A:$D;4;FALSO)
 ```
-
-## Formula da concatanação + PROCV 
-![Investimento mensal](assets/images/12.png)
