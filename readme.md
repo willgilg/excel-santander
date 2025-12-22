@@ -25,5 +25,6 @@ comandos e formulas
 ````
 
 ## faz isso
-ddd /images/electrocat.png
+d
+assets/images/electrocat.png
 
