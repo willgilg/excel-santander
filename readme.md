@@ -47,24 +47,25 @@ APERTE F4 DUAS VEZES PARA FICAR A$20 = ISSO FAZ QUE SEJA POSSIVEL COPIAR A FORMU
 
 ### SUGESTÃO DE INVESTIMENTO 
   *30% DO SALARIO
-{{:pasted:20251218-163702.png}}\\
-
 
 ### VARIAVEIS GLOBAIS NOMEAÇÃO DE INTERVALOS \ CELULAS
 
   *Vá no canto superior esquerdo e de um nome a célula 
 
+  *Aperte a tecla F3 para ABRIR OS NOMES DAS VARIAVEI
+![Investimento mensal](assets/images/7.png)
+
+
 ![Investimento mensal](assets/images/5.png)
 
-  *Aperte a tecla F3 para ABRIR OS NOMES DAS VARIAVEI
+## Menu de configurações
 
 ![Investimento mensal](assets/images/6.png)
 
-![Investimento mensal](assets/images/7.png)
+
 
 ## PERFIS DE INVESTIMENTO 
 
-![Investimento mensal](assets/images/8.png)
 
 ### PERFIS DE INVESTIMENTO DINAMICO
   *1 - Criar campo de texto validado com 
