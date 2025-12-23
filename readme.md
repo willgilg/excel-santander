@@ -89,9 +89,6 @@ Formula do valor futuro com valores fixos baseados nos numeros ocultos
 ```
 Conservador;Moderado;Agressivo;
 ```
-![Investimento mensal](assets/images/perfis-de-invest.png)
-
-
   *Aperte a tecla F3 para ABRIR OS NOMES DAS VARIAVEI
   *2 - Criar um tabela de apoio para pegar os com os valores PERCENTUAIS e os tipos de FII's
    
@@ -127,10 +124,6 @@ PROCV =
 PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4; FALSO = CORRESPONDENCIA EXATA
 
 
-
-
-
-
 ## Cirar formula PROCV na "planilha1" 
   *5 - Criar procv junto a formula de concatenação na columa Percentual Suegerido,
   *Ficando:
@@ -138,3 +131,6 @@ PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4;
 ```
 =PROCV($C$25&"-"&B29;Planilha2!$A:$D;4;FALSO)
 ```
+
+4.4 - Visualização final
+![Investimento mensal](assets/images/perfis-de-invest.png)
