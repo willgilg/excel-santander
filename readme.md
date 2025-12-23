@@ -44,6 +44,7 @@ Os Valores apresentados são recomendados a serem investido em cada categoria
 
 
 ## 2 - Menu de configurações
+O Campo "Quanto investir por mês?" - É independente do valor segestionado nas "Configurações"
 ![Investimento mensal](assets/images/99.png)
 
 ## 2.1 Calculando dividendos mensais 
@@ -72,11 +73,11 @@ Formula do valor futuro com valores fixos baseados nos numeros ocultos
 =VF($D$14;$A19*12;$D$12*-1)
 ```
 
-#### VARIAVEIS GLOBAIS NOMEAÇÃO DE INTERVALOS \ CELULAS
-  *Dica para melhor organização da planilha, definir nomes nas células
-  *Vá no canto superior esquerdo e de um nome a célula 
-
-  *Aperte a tecla F3 para ABRIR OS NOMES DAS VARIAVEIS
+#### DICA: VARIAVEIS GLOBAIS NOMEAÇÃO DE INTERVALOS \ CELULAS
+> [!TIP]
+>Dica para melhor organização da planilha, definir nomes nas células
+>Vá no canto superior esquerdo e de um nome a célula 
+>Aperte a tecla F3 para ABRIR OS NOMES DAS VARIAVEIS
 ![Investimento mensal](assets/images/7.png)
 
 
