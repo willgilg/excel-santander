@@ -124,9 +124,13 @@ Conservador;Moderado;Agressivo;
 ```
 > [!TIP]
 > Explicação PROCV 
+
 > PROCV = G3 = VALOR PROCURADO; 
+
 > $A:$D = COLUNAS DA COLUNA A ATÉ D; 
+
 > 4 = COLUNA 4; 
+
 > FALSO = CORRESPONDENCIA EXATA
 
 
