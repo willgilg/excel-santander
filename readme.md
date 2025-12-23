@@ -101,11 +101,13 @@ Conservador;Moderado;Agressivo;
    
   *3 - O valor da coluna A é o concatenação dos valores da coluna B e C "=B3&"-"&C3" para que fique o texto seja "**TIPO-DE-FI-PERCENTUAL SUGERIDO**"
   *Isso é chamado de chave composta
+![Investimento mensal](assets/images/4-simples.png)
 
-![Investimento mensal](assets/images/11.png)
 
   *4 - Criar um PROCV da planilha de apoio no campo de texto "Percentual sugerido"
   Correspondência exata = FALSO
+
+![Investimento mensal](assets/images/4-COM-PROC-.png) 
 PROCV =  
 ```
 =PROCV(G3;$A:$D;4;FALSO)
