@@ -93,16 +93,18 @@ Conservador;Moderado;Agressivo;
   *2 - Criar um tabela de apoio para pegar os com os valores PERCENTUAIS e os tipos de FII's
    
   *3 - O valor da coluna A é o concatenação dos valores da coluna B e C "=B3&"-"&C3" para que fique o texto seja "**TIPO-DE-FI-PERCENTUAL SUGERIDO**"
+
   *Isso é chamado de chave composta
+
   *Esse campo será utilizado com outra formula para que os valores de acordo com cada perfil seja encontrado em outra planilha
 
 ![Investimento mensal](assets/images/4-simples2.png)
-![Investimento mensal](assets/images/4-simples.png)
-
-
 
 ## 4.1  Na planilha2 Formula da concatanação + PROCV na segunda "Planilha2"
-  Criar segunda planilha para armazenar variaveis
+  *Criar segunda planilha para armazenar variaveis
+
+  *Somente dados são armazenados nessa planilha, cole os dados da Planilha1 utilizando CTRL + ATL + V
+
 ![Investimento mensal](assets/images/12.png)
 
 
@@ -114,14 +116,15 @@ Conservador;Moderado;Agressivo;
 =PROCV(C$25&"-"&B29;Planilha2!A:D;4;FALSO)´
 ´´´
 
-![Investimento mensal](assets/images/4-COM-PROC-.png) 
-PROCV =  
+
+![Investimento mensal](assets/images/4-COM-PROC-V.png) 
+  *FORMULA PROCV SEPARADA
 ```
 =PROCV(G3;$A:$D;4;FALSO)
 ```
-
-## Explicação PROCV 
-PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4; FALSO = CORRESPONDENCIA EXATA
+> [!TIP]
+> Explicação PROCV 
+> PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4; FALSO = CORRESPONDENCIA EXATA
 
 
 ## Cirar formula PROCV na "planilha1" 
