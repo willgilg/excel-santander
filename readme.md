@@ -36,14 +36,18 @@ Os Valores apresentados são recomendados a serem investido em cada categoria
 |=VF(C9;C8*12;C7*-1)| VF (Valor Futuro) C9 (Juros) C18 (Anos × 12)  C7 (Valor Mensal)  Vezes -1 (Para Inverter sinal negativo)|
 |=PROCV(G3;$A:$D;4;FALSO) | PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4; FALSO = CORRESPONDENCIA EXATA|
 
-## Calculando valor futuro (Patrimonio acumulado)
+## 1 INVESTIMENTO MENSAL - Calculando valor futuro (Patrimonio acumulado)
 
 ![Investimento mensal](assets/images/1.png)
 ```
 =VF(C9;C8*12;C7*-1)
 ```
 
-## Calculando dividendos mensais 
+
+## 2 - Menu de configurações
+![Investimento mensal](assets/images/99.png)
+
+## 2.1 Calculando dividendos mensais 
 
 Dividendos = Patrimonio acumulado * 1% 
 
@@ -56,8 +60,7 @@ Dividendos = Patrimonio acumulado * 1%
 =patrimonio*rendimento_carteira
 ```
 
-
-## Dica para utilizar numeros "invisíveis" no Excel 
+## 3 CENÁRIOS - Dica para utilizar numeros "invisíveis" no Excel 
   *COLOQUE OS NUMEROS NA COLUNA AO LADO 
 ![Cenários](assets/images/3.png)
 
@@ -70,25 +73,18 @@ Formula do valor futuro com valores fixos baseados nos numeros ocultos
 =VF($D$14;$A19*12;$D$12*-1)
 ```
 
-
-### SUGESTÃO DE INVESTIMENTO 
-  *30% DO SALARIO
-
-### VARIAVEIS GLOBAIS NOMEAÇÃO DE INTERVALOS \ CELULAS
-
+#### VARIAVEIS GLOBAIS NOMEAÇÃO DE INTERVALOS \ CELULAS
+  *Dica para melhor organização da planilha, definir nomes nas células
   *Vá no canto superior esquerdo e de um nome a célula 
 
-  *Aperte a tecla F3 para ABRIR OS NOMES DAS VARIAVEI
+  *Aperte a tecla F3 para ABRIR OS NOMES DAS VARIAVEIS
 ![Investimento mensal](assets/images/7.png)
 
-## Menu de configurações
-
-![Investimento mensal](assets/images/99.png)
 
 
 
 
-### PERFIS DE INVESTIMENTO DINAMICO
+### 4 PERFIS DE INVESTIMENTO DINAMICO 
   *1 - Criar campo de texto validado na segunda Coluna com:
 ```
 Conservador;Moderado;Agressivo;
@@ -101,11 +97,25 @@ Conservador;Moderado;Agressivo;
    
   *3 - O valor da coluna A é o concatenação dos valores da coluna B e C "=B3&"-"&C3" para que fique o texto seja "**TIPO-DE-FI-PERCENTUAL SUGERIDO**"
   *Isso é chamado de chave composta
+  *Esse campo será utilizado com outra formula para que os valores de acordo com cada perfil seja encontrado em outra planilha
+
+![Investimento mensal](assets/images/4-simples2.png)
 ![Investimento mensal](assets/images/4-simples.png)
 
 
-  *4 - Criar um PROCV da planilha de apoio no campo de texto "Percentual sugerido"
+
+## 4.1  Na planilha2 Formula da concatanação + PROCV na segunda "Planilha2"
+  Criar segunda planilha para armazenar variaveis
+![Investimento mensal](assets/images/12.png)
+
+
+## 4.2 - Na planilha1 - Criar um PROCV da planilha de apoio no campo de texto "Percentual sugerido"
   Correspondência exata = FALSO
+
+## 4.3 - PROCV + CONCATENAÇÃO
+´´´
+=PROCV(C$25&"-"&B29;Planilha2!A:D;4;FALSO)´
+´´´
 
 ![Investimento mensal](assets/images/4-COM-PROC-.png) 
 PROCV =  
@@ -118,9 +128,7 @@ PROCV = G3 = VALOR PROCURADO; $A:$D = COLUNAS DA COLUNA A ATÉ D;  4 = COLUNA 4;
 
 
 
-## Formula da concatanação + PROCV na segunda "Planilha2"
-  Criar segunda planilha para armazenar variaveis
-![Investimento mensal](assets/images/12.png)
+
 
 
 ## Cirar formula PROCV na "planilha1" 
