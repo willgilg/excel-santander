@@ -1,4 +1,3 @@
-
 # Excel com Inteligencia Aritifical - Entrega de projeto
 
 Repositório para entregar aula 
