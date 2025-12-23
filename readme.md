@@ -4,6 +4,28 @@
 Repositório para entregar aula 
 "Criando uma Ferramenta de Controle de Investimentos com Excel"
 
+A planilha está dividida em 4 partes:
+
+1. ⚙️ Configurações
+Área centralizadora onde o usuário define os parâmetros base da simulação.
+Definição de aporte inicial, taxa de juros estimada e metas.
+
+2. 📅 Investimento Mensal
+O Campo "Quanto investir por mês?" - É independente do valor segestionado nas "Configurações"
+Uma visão detalhada do cenário anual 
+Acompanhamento mês a mês da evolução dos aportes.
+
+Cálculo de juros compostos aplicados ao fluxo de caixa de curto prazo.
+
+3. ⏳ Cenários de Longo Prazo
+Simulações projetadas para horizontes de 2 a 30 anos.
+Patrimônio Acumulado  e cálculo automático de renda passiva dividendos mensais estimados com base no montante acumulado.
+
+4. 🏢 Perfis de Investimento Imobiliário (FIIs)
+Análise segmentada por categorias de fundos, permitindo comparar diferentes estratégias de acordo com o perfil de investimento do usuário
+Os Valores apresentados são recomendados a serem investido em cada categoria
+
+
 [Link para o repo:](https://github.com/willgilg/excel-santander)
 
 - [Documentação Git]
@@ -43,6 +65,10 @@ PINTE OS DE BRANCO PARA USAR O VALOR NA FORMULA
 
 APERTE F4 DUAS VEZES PARA FICAR A$20 = ISSO FAZ QUE SEJA POSSIVEL COPIAR A FORMULA ARRASTANDO PARA BAIXO DEM ALTERAR OS NUMEROS DAS COLUNAS QUE VOCE VAI DEIXAR "INIVISEVEL"
 
+Formula do valor futuro com valores fixos baseados nos numeros ocultos
+```
+=VF($D$14;$A19*12;$D$12*-1)
+```
 
 
 ### SUGESTÃO DE INVESTIMENTO 
